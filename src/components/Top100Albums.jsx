@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react';
-import data from '../spotify_data.history.json';
+import React, { useMemo } from "react";
+import data from "../spotify_data.history.json";
 
 export const TopAlbums = () => {
   const getAlbumPlayTimes = () => {

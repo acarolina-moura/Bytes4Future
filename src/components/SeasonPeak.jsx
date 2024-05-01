@@ -1,30 +1,9 @@
-import React from 'react';
-import data from '../spotify_data.history.json';
-
-const getSeasonFromMonth = (month) => {
-  switch (month) {
-    case 0:
-    case 1:
-    case 11:
-      return 'Inverno';
-    case 2:
-    case 3:
-    case 4:
-      return 'Primavera';
-    case 5:
-    case 6:
-    case 7:
-      return 'Verão';
-    case 8:
-    case 9:
-    case 10:
-      return 'Outono';
-    default:
-      return '';
-  }
-};
+import React from "react";
 
 export const SeasonArtist = ({ artistName }) => {
+  // o erro é que a lista de reproduções só está disponível aqui, não é passada como parâmetro
+  const data = require("../spotify_data.history.json");
+
   const artistData = data.filter(
     (item) => item.master_metadata_album_artist_name === artistName
   );
@@ -51,7 +30,7 @@ export const SeasonArtist = ({ artistName }) => {
   const peakListeningSeason = Object.entries(seasonPlayTimes).reduce(
     (maxSeason, [season, playTime]) =>
       playTime > seasonPlayTimes[maxSeason] ? season : maxSeason,
-    ''
+    ""
   );
 
   return (
@@ -60,4 +39,27 @@ export const SeasonArtist = ({ artistName }) => {
       <p>{peakListeningSeason}</p>
     </div>
   );
+};
+
+const getSeasonFromMonth = (month) => {
+  switch (month) {
+    case 0:
+    case 1:
+    case 11:
+      return "Inverno";
+    case 2:
+    case 3:
+    case 4:
+      return "Primavera";
+    case 5:
+    case 6:
+    case 7:
+      return "Verão";
+    case 8:
+    case 9:
+    case 10:
+      return "Outono";
+    default:
+      return "";
+  }
 };

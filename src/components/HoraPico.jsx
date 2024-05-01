@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo } from "react";
 import data from "../spotify_data.history.json";
 
 export const PeakListeningTime = () => {
