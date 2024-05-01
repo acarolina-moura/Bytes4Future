@@ -1,11 +1,13 @@
+import data from "./spotify_data.history.json";
 import "./App.css";
+
 import React, { useMemo } from "react";
-import { ArtistPlayCount } from "./components/Top100Artistas"; // top 100 artistas
-import { AlbumPlayTimes } from "./components/Top100Albums"; // top 100 albums
-import { TopTracks } from "./components/Top100musicas"; // top 100 musicas
-import { MusicAnalytics } from "./components/PrimeirosReq"; // primeiros requisitos
-import  { PeakListeningTime } from "./components/HoraPico" // hora mais ouvida
-import  { SeasonArtist } from "./components/SeasonPeak" // qual estação ele mais ouviu o artista
+import { ArtistPlayCount } from "./Components/Top100Artistas"; // top 100 artistas
+import { AlbumPlayTimes } from "./Components/Top100Albums"; // top 100 albums
+import { TopTracks } from "./Components/Top100musicas"; // top 100 musicas
+import { MusicAnalytics } from "./Components/PrimeirosReq"; // primeiros requisitos
+import  { PeakListeningTime } from "./Components/HoraPico" // hora mais ouvida
+import  { SeasonArtist } from "./Components/SeasonPeak" // qual estação ele mais ouviu o artista
 
 
 
@@ -14,9 +16,6 @@ import  { SeasonArtist } from "./components/SeasonPeak" // qual estação ele ma
 function App() {
   return (
     <div className="App">
-      <Artistas />
-      <Faixas />
-
         <section className="wrapPage">
         <div>
           <h2>Olá, Rajarshi B.</h2>
@@ -26,7 +25,8 @@ function App() {
         </div>
         <div className="cardsContent">
           <h3>AS MINHAS ESTATÍSTICAS</h3>
-          <h3>{TopTracks}</h3>
+          
+          <TopTracks />
 
           <div className="cardPlays">
           

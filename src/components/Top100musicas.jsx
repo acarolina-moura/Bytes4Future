@@ -22,10 +22,11 @@ export const TopTracks = () => {
   return (
     <div>
       <h3>Top 100 Músicas por Tempo de Escuta</h3>
+      <p>{topTracks.length}</p>
       <ol>
         {topTracks.map(({ trackName, playTime }, index) => (
           <li key={trackName}>
-            {index + 1}. {trackName} ({playTime / 60000} minutos) {/* Correção na fórmula */}
+            <p>{index + 1}. {trackName} ({playTime / 60000} minutos) {/* Correção na fórmula */}</p>
           </li>
         ))}
       </ol>
