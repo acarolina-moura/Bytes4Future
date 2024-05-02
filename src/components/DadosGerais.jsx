@@ -26,3 +26,5 @@ const MusicAnalytics = ({ data }) => {
     };
   }, [data]);
 };
+
+export default MusicAnalytics;

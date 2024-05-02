@@ -10,24 +10,38 @@ import { PeakListeningTime } from "./components/HoraPico"; // hora mais ouvida
 import { SeasonArtist } from "./components/SeasonPeak"; // qual estação ele mais ouviu o artista
 import { ArtistDetails } from "./components/Artista-Req";
 import { TopArtists } from "./components/Top100Artistas";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; // este é ROUTER para ter mais de uma página no projeto
+import { BrowserRouter as Router, Switch, Route, Link, BrowserRouter, Routes } from "react-router-dom"; // este é ROUTER para ter mais de uma página no projeto
+import Sidebar from "./components/Sidebar"
 
 function App() {
   return (
-    // Como criamos a sidebar como componente podemos reutilizá-la aqui dentro da App.js como abaixo:
-  //   <Router>
-  //   <div>
-  //     <Sidebar />
-  //     <Switch>
-  //       <Route path="/Estatisticas" component={Estatistica} />
-  //       <Route path="/outra" component={OutraPagina} />
-  //       {/* Outras rotas aqui */}
-  //     </Switch>
-  //   </div>
-  // </Router>
-    
     <div className="App">
+      <Router>
+        <div>
+          <Sidebar />
+          <Routes>
+            <Route path="" element={<div>HOMEPAGE</div>} />
+            <Route path="/estatisticas" element={<div>PAGINA DE ESTATISTICAS</div>} />
+            <Route path="/outra" element={<div>PAGINA DE OUTRA</div>} />
+          </Routes>
+        </div>
+      </Router>
+
       <section className="wrapPage">
+        <div>
+          <img src="" alt=""></img>
+          <img src="" alt=""></img>
+          <img src="" alt=""></img>
+        </div>
+        <div className="wraperDad">
+          <div className="top100">
+            <div className="smallDad">
+              <div className="TopArtistas"></div>
+              <div className="TopAlbuns"></div>
+              <div className="TopMusicas"></div>
+            </div>
+          </div>
+        </div>
         <div>
           <h2>Olá, Rajarshi B.</h2>
           <h2>
@@ -42,7 +56,9 @@ function App() {
           <SeasonArtist artistName="Travis Scott" />
           <TopArtists />
 
-          <div className="cardPlays"></div>
+          <div className="cardPlays">
+            <MusicAnalytics />
+          </div>
           <div className="cardDifSongs"></div>
           <div className="cardTotalPlays"></div>
           <div className="cardDateTime"></div>
