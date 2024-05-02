@@ -1,4 +1,6 @@
 import React from "react";
+import styles from './components/Sidebar.module.css'
+import { BrowserRouter } from "react-router-dom"; // este é ROUTER para ter mais de uma página no projeto
 
 function Sidebar() {
   return (

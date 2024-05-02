@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react';
-import data from '../spotify_data.history.json';
+import React, { useMemo } from "react";
+import data from "../spotify_data.history.json";
 
 export const MusicAnalytics = () => {
   const getTotalPlays = () => {
@@ -7,7 +7,9 @@ export const MusicAnalytics = () => {
   };
 
   const getUniqueTracks = () => {
-    const trackSet = new Set(data.map((item) => item.master_metadata_track_name));
+    const trackSet = new Set(
+      data.map((item) => item.master_metadata_track_name)
+    );
     return trackSet.size;
   };
 
