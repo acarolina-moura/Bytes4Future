@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgd: hsl(47, 88%, 63%);
+  --bgd_cont: hsl(0, 0%, 100%);
+  --ff: "Figtree";
+  --fs: 16px;
+  --p_color: hsl(0, 0%, 50%);
+  --bgd_btn: hsl(47, 88%, 63%);
+  --color_btn: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: var(--bgd);
+  font-family: var(--ff);
+}
+
+.container {
+  background-color: var(--bgd_cont);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 480px;
+  width: 350px;
+  margin: 200px auto;
+  border: 1px solid;
+  border-radius: 15px;
+  box-shadow: 10px 10px black;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: var(--bgd_btn);
+  color: var(--color_btn);
+  font-size: 14px;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 100px;
+  margin-left: 20px;
+  -webkit-text-stroke: 0.35px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 900;
+  margin-left: 15px;
+}
+
+img {
+  border-radius: 15px;
+  margin: 20px;
+}
+
+#paragraph1 {
+  color: black;
+}
+
+p {
+  color: var(--p_color);
+  font-size: var(--fs);
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.image2 {
+  display: flex;
+  margin-left: 30px;
+}
+
+span {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.name {
+  margin-top: 10px;
+}
