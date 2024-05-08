@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 
 body {
@@ -116,3 +117,123 @@ footer{
   width: auto;
   height: 60px;
    }
+=======
+@charset "UTF-8";
+
+body {
+  background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1{
+  font-size: 25px;
+  margin-top: 0;
+  }
+
+  #h1_bolo{
+    padding-top: 30px;
+    margin: 20px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+h3{
+  font-size: 16px;
+  color: #7a1f40;
+}
+
+header {
+  height: 80px;
+  width: auto;
+  background-color: #f2b705;
+  text-align: center;
+  color: #a6147f;
+   }
+
+   header h1{
+    padding-top: 20px;
+   }
+
+   header img {
+   height: 50px;
+   width: 50px;
+      
+   }
+
+  nav {
+    height: 40px;
+    
+  }
+
+ .navegaçao {
+  list-style-type: none; /*Remove os marcadores*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#d0af9d;
+  position: none;
+  top: 0;
+  width: auto;
+  
+}
+
+li a{
+  float: left;
+  display: block;
+  color: #A6147F;
+  text-align: center;
+  padding: 14px 16px ;
+  text-decoration: none;
+}
+
+li a:hover{
+ 
+  background-color: #b57c7c;
+}
+
+::marker {
+  color: #a6147f;
+}
+
+iframe{
+  padding: 40px;
+}
+
+main{
+  padding-top: 30px;
+  padding: 30px;
+  width: 50%;
+   
+}
+
+img{
+  padding:40px;
+  height: 250px;
+  width: 300px;
+}
+
+
+
+aside{
+
+  display: flex;
+  justify-content: left;
+}
+
+button{
+  border-radius:2px;
+  background-color: #d3a3a3;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+footer{
+  background-color:#f2b705;
+  width: auto;
+  height: 60px;
+   }
+>>>>>>> 5854148777fbadb7784df6b30a87540962774cf4

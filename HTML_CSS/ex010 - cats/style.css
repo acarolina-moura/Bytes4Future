@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -96,3 +97,103 @@ p {
   justify-content: center;
   gap: 50px;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 400px;
+}
+
+/*============
+Header Styling 
+=============*/
+header {
+    /*Cor do texto em branco*/
+    color: white;
+  /*Metam o logo e nav em duas colunas. (display: flex)
+  Depois, quero que centralizem horizontalmente
+  e também verticalmente.
+   */
+   display: flex;
+   justify-content:center ;
+   justify-content: space-between;
+  align-items: center;
+  background: tomato;
+  padding: 30px;
+  /*Padding de 30 pixeis */
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  /*Metam o logo em negrito */
+  align-items: center;
+}
+
+.nav-list {
+  /*Tirem as bolinhas da lista*/
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links {
+  /*Metam cor de texto em branco*/
+  color: white;
+  /*Tirem a decoração do texto*/
+  text-decoration: none;
+  /*Transformem o texto para letras maiúsculas*/
+  text-transform: uppercase;
+}
+
+/*============
+Section Styling 
+=============*/
+
+section {
+  height: 1000px;
+  max-width: 800px;
+  margin: 100px auto; /*Damos margem de 100 pixeis em cima e em baixo, e centralizamos da esquerda e direita */
+}
+
+.hero-section {
+  display: flex;
+  /*Metam a direção em coluna
+  Depois, centralizem verticalmente*/
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  /*Metam tamanho da letra em 60 pixeis*/
+  font-size: 60px;
+  /*Metam em bold */
+  font-weight: bold;
+}
+
+.cat-of-the-day {
+  margin: 40px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.cat-gallery {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gallery-pictures {
+  /*Criem colunas (display: flex)
+  Depois centralizem horizontalmente
+  Dêm um espaço entre as imagens de 50 pixeis*/
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+>>>>>>> 5854148777fbadb7784df6b30a87540962774cf4

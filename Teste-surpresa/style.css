@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 
 *{
@@ -29,4 +30,37 @@ body{
 
     nav{
 
+=======
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./logoBytes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   }
+
+.container{
+    width: 100%;
+  
+    
+    margin: 0 auto;
+
+  
+    }
+
+    header{
+
+    }
+
+    nav{
+
+>>>>>>> 5854148777fbadb7784df6b30a87540962774cf4
     }
