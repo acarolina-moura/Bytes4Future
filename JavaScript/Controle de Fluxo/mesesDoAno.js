@@ -18,43 +18,32 @@ Correspondências:
 Quando recebe um número diferente deve retornar a mensagem: "Número inválido. Por favor insira um número entre 1 e 12." */
 
 function mesesDoAno(m) {
-    switch (m) {
-        case 1:
-            return "Janeiro"
-
-        case 2:
-            return "Fevereiro"
-
-        case 3:
-            return "Março"
-
-        case 4:
-            return "Abril"
-
-        case 5:
-            return "Maio"
-
-        case 6:
-            return "Junho"
-
-        case 7:
-            return "Julho"
-
-        case 8:
-            return "Agosto"
-
-        case 9:
-            return "Setembro"
-
-        case 10:
-            return "Outubro"
-
-        case 11:
-            return "Novembro"
-
-        case 12:
-            return "Dezembro"
-        default:
-            return "Número inválido. Por favor insira um número entre 1 e 12."
-    }
+  switch (m) {
+    case 1:
+      return "Janeiro";
+    case 2:
+      return "Fevereiro";
+    case 3:
+      return "Março";
+    case 4:
+      return "Abril";
+    case 5:
+      return "Maio";
+    case 6:
+      return "Junho";
+    case 7:
+      return "Julho";
+    case 8:
+      return "Agosto";
+    case 9:
+      return "Setembro";
+    case 10:
+      return "Outubro";
+    case 11:
+      return "Novembro";
+    case 12:
+      return "Dezembro";
+    default:
+      return "Número inválido. Por favor insira um número entre 1 e 12.";
+  }
 }
