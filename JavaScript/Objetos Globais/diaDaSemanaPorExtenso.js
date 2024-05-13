@@ -2,9 +2,7 @@
 // Output : diaDaSemanaPorExtenso(new Date(2022,03,04)) // segunda-feira
 
 function diaDaSemanaPorExtenso(data){
-    let dia = data.getDate();
-   // let mes = data.getMonth();
-    //let ano = data.getFullYear();
+
     let diaDaSemana = data.getDay();
 
     let mapaDaSemana = new Map ([
