@@ -1,5 +1,5 @@
 /*Cria uma função que recebe uma data como argumento e a retorna o dia da semana por extenso.*/
-// Output : diaDaSemanaPorExtenso(new Date(2022,03,04)) // segunda-feir
+// Output : diaDaSemanaPorExtenso(new Date(2022,03,04)) // segunda-feira
 
 function diaDaSemanaPorExtenso(data){
     let dia = data.getDate();

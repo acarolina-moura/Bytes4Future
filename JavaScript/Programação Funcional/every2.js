@@ -1,11 +1,6 @@
-const pessoas = [
-    {nome: 'Joao', idade: 20 },
-    {nome: 'Pedro', idade: 18 },
-    {nome: 'Maria', idade: 22 },
-    {nome: 'Ana', idade: 15}
+/*Cria uma função que recebe um array e um número como argumentos e verifica se todos os elementos são iguais a n.*/
 
-]
-
-const isAdult = (pessoa) => pessoa.idade >= 18;
-
-console.log(pessoas.every(isAdult))
+function todosIguaisAN(array, n){
+    const numerosIguais = array.every((elemento) => elemento === n);
+    return numerosIguais
+}

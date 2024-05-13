@@ -1,5 +1,5 @@
 function todasPossuemLetra(array, letra){
-    return Array.filter (array => array === letra())
+    return array.filter (array => array === letra())
 }
 
 
