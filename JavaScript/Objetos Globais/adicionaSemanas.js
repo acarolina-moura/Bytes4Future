@@ -7,3 +7,13 @@ function adicionaSemanas(data, semanas) {
     const novaData = new Date (dataComSemanasAdicionadas);
     return novaData
 }
+
+
+// Uso
+
+const dataInicial = new Date(2024, 4, 13); // 13 de maio de 2024
+const numeroSemanas = 4;
+
+const novaData = adicionarSemanas(dataInicial, numeroSemanas);
+
+console.log(novaData); // Imprime: Sat Jun 10 2024 00:00:00 GMT-0700 (Horário de Verão do Pacífico)
