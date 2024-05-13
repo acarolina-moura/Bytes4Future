@@ -32,15 +32,3 @@
 
 //  console.log(perimetroDoTrapezio(10, 5, 3))
 
-
-function converteHacker(string) {
-    switch (string)
-   
-   case 'A' :
-  console.log('a')
-   case 'E' :
-   return 'e';
-      
-   }
-
-   console.log(converteHacker("A"))
