@@ -1,0 +1,68 @@
+<<<<<<< HEAD
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    background-color: gray;
+    display: flex;
+    margin:  200px auto;
+    width: auto;
+    height: 600px;
+}
+
+.box1{
+    display: flex;
+    width: 100vh;
+
+}
+
+.box2{
+    display: flex;
+}
+
+.box3{
+    display: flex;
+=======
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    background-color: gray;
+    display: flex;
+    margin:  200px auto;
+    width: auto;
+    height: 600px;
+}
+
+.box1{
+    display: flex;
+    width: 100vh;
+
+}
+
+.box2{
+    display: flex;
+}
+
+.box3{
+    display: flex;
+>>>>>>> 5854148777fbadb7784df6b30a87540962774cf4
+}

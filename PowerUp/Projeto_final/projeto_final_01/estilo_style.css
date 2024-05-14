@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor0: #f21667;
+  --cor1: #8c0d48;
+  --cor2: #7b0017;
+  --cor3: #40062b;
+  --cor4: #0d0d0d;
+  --cor5: #ae7d95;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ae7d95d8;
+}
+
+header {
+  background-color: var(--cor4);
+  height: 270px;
+  padding-top: 10px;
+  display: block; /* Faz com que a imagem se ajuste ao tamanho d header*/
+}
+
+header h1 {
+  font-size: 30px;
+  text-align: center; /* centraliza a  imagem*/
+  color: white;
+  margin-top: 20px;
+}
+
+img {
+  display: block; /* Remove espaços extras em volta da imagem */
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+#nome h1 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#nome h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #6b2854;
+  padding-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #6b2854f5;
+  padding: 15px;
+}
+
+nav li {
+  display: inline; 
+}
+
+nav li a {
+  color: #a6147f;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+nav li a:hover {
+  background-color: #58314a;
+}
+
+main {
+  min-height: 50vh;
+  text-indent: 30px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+main h3 {
+  color: #000;
+}
+
+#mim {
+  color: #6b2854;
+}
+
+section {
+  min-height: 50vh;
+  margin-left: 20px;
+}
+
+section li::marker {
+  color: #6b2853;
+}
+
+section h3 {
+  color: #000;
+  padding-bottom: 20px;
+}
+
+.exp1 {
+  width: 30%;
+  text-indent: 30px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+.exp2 {
+  width: 30%;
+  text-indent: 30px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+.exp3 {
+  width: 33%;
+  text-indent: 30px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+article {
+  min-height: 50vh;
+  width: 100%;
+  text-indent: 30px;
+  padding-bottom: 30px;
+  background-color: #e5dce5;
+}
+article p {
+  padding-bottom: 10px;
+}
+
+#expertise {
+  color: #6b2854;
+}
+/*Criando Skill Bar*/
+
+/* Container for skill bars */
+.container {
+  width: 33%; /* Full width */
+  border-radius: 20px;
+}
+
+article h3 {
+  margin-bottom: 20px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 3px; /* Add top padding */
+  padding-bottom: 3px; /* Add bottom padding */
+  color: white;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.html {
+  width: 60%;
+  background-color: #7b0017;
+  margin-bottom: 20px;
+}
+.css {
+  width: 70%;
+  background-color: #7b0017;
+  margin-bottom: 20px;
+}
+
+.C_language {
+  width: 70%;
+  background-color: #7b0017;
+  margin-bottom: 20px;
+}
+
+footer {
+  min-height: 25vh;
+  text-indent: 30px;
+  padding-bottom: 20px;
+  background-color: #b05881cf;
+}
+.btn {
+  background-color: #8c0d48;
+  padding:10px;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  
+}
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #40062b;
+}
