@@ -1,38 +1,17 @@
-<<<<<<< HEAD
 /* 4-Cria uma função que recebe como argumento um número t e retorna os meses desse trimestre. Correspondências: 1 - Janeiro, Fevereiro, Março 2 - Abril, Maio, Junho 3 - Julho, Agosto, Setembro 4 - Outubro, Novembro, Dezembro Quando recebe um número diferente deve retornar a mensagem: "Número inválido. Por favor insira um número entre 1 e 4." Utiliza o que aprendeste sobre switch ... case para resolver este exercício. */
 
-/*
-function funçaoT (t); {
-        switch (t){
-        case 1: ("Janeiro, Fevereiro, Março");
-        break;
-        case 2 : ("Abril, Maio, Junho");
-        break;
-        case 3: ("Julho, Agosto, Setembro");
-        break;
-        case 4: ("Outubro, Novembro, Dezembro");
-        break;
-        default:
-            console.log(" Favor digitar um numero de 1 a 4");
-       }
-    }
-=======
-/* 4-Cria uma função que recebe como argumento um número t e retorna os meses desse trimestre. Correspondências: 1 - Janeiro, Fevereiro, Março 2 - Abril, Maio, Junho 3 - Julho, Agosto, Setembro 4 - Outubro, Novembro, Dezembro Quando recebe um número diferente deve retornar a mensagem: "Número inválido. Por favor insira um número entre 1 e 4." Utiliza o que aprendeste sobre switch ... case para resolver este exercício. */
 
-/*
-function funçaoT (t); {
+function mesesDoAno (t) {
         switch (t){
-        case 1: ("Janeiro, Fevereiro, Março");
-        break;
-        case 2 : ("Abril, Maio, Junho");
-        break;
-        case 3: ("Julho, Agosto, Setembro");
-        break;
-        case 4: ("Outubro, Novembro, Dezembro");
-        break;
-        default:
-            console.log(" Favor digitar um numero de 1 a 4");
+        case 1:
+            return "Janeiro, Fevereiro, Março";
+              case 2:
+            return "Abril, Maio, Junho";
+               case 3:
+            return "Julho, Agosto, Setembro";
+                case 4:
+            return "Outubro, Novembro, Dezembro";
+               default:
+            return "Favor digitar um numero de 1 a 4";
        }
     }
->>>>>>> 5854148777fbadb7784df6b30a87540962774cf4
-*/
