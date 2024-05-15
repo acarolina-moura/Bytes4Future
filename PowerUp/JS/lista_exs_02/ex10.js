@@ -5,5 +5,7 @@ function maiorValorArrayIndex(array){
 }*/
 
 const array = [10, 2, 9, 8, 3, 6];
+
 let maxIndex = Math.max(...array);
+
 console.log(array.indexOf(maxIndex));
