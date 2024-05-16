@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bcg: #141414;
+  --bcgLog: #1F1F1F;
+  --bcgBtn: #333333;
+  --MainTex: #ffffff;
+  --SecondText:#ED145B;
+  --Hover: #AE1749;
+}
+
+body{
+  background-color: var(--bcg);
+}
+
+.App {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  min-height: 400px;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 150px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  display: flex;
+
+}
+.container{
+ 
+}
+
+.form {
+
+}
+
+.mainText{
+  color: var(--MainTex);
+}
+
+.inpt{
+  margin: 10px;
+  height: 50px;
+}
+
+.btn{
+  margin-top: 80px;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  background-color: var(--Hover);
+  color: var(--MainTex);
+
+}
